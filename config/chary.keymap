@@ -24,7 +24,7 @@
               &lt 2 Q  &kp W       &kp E         &kp R      &kp T              &kp Y          &kp U      &kp I      &kp O      &kp P     
             &kp A  &kp S       &kp D         &kp F      &kp G              &kp H          &kp J      &kp K      &kp L      &kp SEMI 
             &kp Z  &kp X       &kp C         &kp V      &kp B              &kp N          &kp M      &kp COMMA  &kp DOT    &lt 2 FSLH 
-                &lt NUFU TAB  &lt SYM SPACE &lt MED ESC                 &mt MEH BACKSPACE &lt SYM ENTER &trans
+                &lt NUFU TAB  &lt SYM SPACE &lt MED ESC                 &kp BACKSPACE  &kp SPACE  &mkp LCLK
             >;
         };
        
