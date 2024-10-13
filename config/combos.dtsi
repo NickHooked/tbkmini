@@ -1,3 +1,4 @@
+/*
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, MS) \
   combo_##NAME { \
     bindings = <BINDINGS>; \
@@ -22,3 +23,5 @@ combos {
   COMBO(r_rightclick, &mkp RCLK, 27 28, BASE, COMBO_TERM_SLOW)
   COMBO(r_middleclick, &mkp MCLK, 26 27, BASE, COMBO_TERM_SLOW)
 }; 
+*/
+
