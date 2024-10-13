@@ -24,7 +24,7 @@
 
 / {
       behaviors {
-        c_c_hm_l: homerow_left_mod {
+        c_hm_l: homerow_left_mod {
             compatible = "zmk,behavior-hold-tap";
             quick-tap-ms = <150>; // tap held if same key is pressed twice within that time
             tapping-term-ms = <250>;
@@ -36,7 +36,7 @@
             hold-trigger-on-release; // delay positional check until key-release
         };
 
-        c_c_hm_r: homerow_right_mod {
+        c_hm_r: homerow_right_mod {
             compatible = "zmk,behavior-hold-tap";
             quick-tap-ms = <150>; // tap held if same key is pressed twice within that time
             tapping-term-ms = <250>;
@@ -48,7 +48,7 @@
             hold-trigger-on-release; // delay positional check until key-release
         };
 
-        c_c_lt: layer_tab {
+        c_lt: layer_tab {
             compatible = "zmk,behavior-hold-tap";
             quick-tap-ms = <150>; // tap held if same key is pressed twice within that time
             tapping-term-ms = <125>; // tap if key was pressed within that time
